@@ -1,8 +1,10 @@
-.header  {
+.header {
   font-family: monospace;
   background: papayawhip;
-  /* changes made by me start here */
+  padding: 8px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -11,20 +13,14 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  /* changes made by me start here */
-  display: flex;
-  flex: 0;
-  justify-content: center;
-  margin: auto;
 }
 
 ul {
   list-style-type: none;
-  /* changes made by me start here */
   display: flex;
-  flex: 1;
-  gap: 20px;
-  padding: 10px;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 }
 
 a {
