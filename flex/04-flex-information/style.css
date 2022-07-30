@@ -1,5 +1,14 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  gap: 52px;
+  display: flex;
 }
 
 img {
@@ -10,6 +19,7 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -24,3 +34,10 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+/* To do: wrap text, follow checklist and correct spacing, gap... */
